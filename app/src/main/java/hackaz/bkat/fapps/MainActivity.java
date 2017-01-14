@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         PackageManager pm = getPackageManager();
         pm.getInstalledApplications(PackageManager.GET_META_DATA);
+
+        //test
     }
 }
