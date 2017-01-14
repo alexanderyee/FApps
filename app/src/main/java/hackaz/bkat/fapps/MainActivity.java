@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         pm.getInstalledApplications(PackageManager.GET_META_DATA);
 
         //test
+        //Test - Theodore
     }
 }
