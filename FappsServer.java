@@ -29,8 +29,9 @@ public class FappsServer {
             	// waits for data and reads it in until connection dies
             	// readLine() blocks until the server receives a new line from client
             	String s;
-            	while ((s = in.readLine()) != null) {
+            	s = in.readLine();{//while ((s = in.readLine()) != null) {
                 	System.out.println(s);
+			out.write("Echo: " + s + "\n"); //Newline needed to terminate readLine()'s wait condition
             	}
 
             	System.err.println("Closing connection with client");
